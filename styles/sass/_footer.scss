@@ -1,0 +1,76 @@
+#footer {
+    background-color: #f1d092c3;
+    .container {
+        .aqlli {
+            padding: 5rem 0; 
+            .uzun {
+                width: 100%;
+                height: 130px;
+                background-color: $kok;
+                display:flex;
+                align-items: center;
+                justify-content: space-around;
+                border-radius: 13px;
+                .portion-9 {
+                    h2 {
+                        color: $white;
+                        width: 380px;
+                        text-transform: capitalize;
+                    }
+                }
+                .portion-10 {
+                    width: 700px;
+                    height: 60px;
+                    background-color: $white;
+                    border-radius: 10px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    input {
+                        width: 500px;
+                        height: 45px;
+                        border-radius: 7px;
+                        border: 1px solid grey;
+                        &::placeholder {
+                            padding-left: 1rem;
+                        }
+                    }
+                    .btn-2 {
+                        padding: 12px 28px;
+                        border-radius: 10px;
+                    }
+                }
+            }
+            .moh {
+                border-bottom: 1px solid $black;
+                margin-top: 3rem;
+                .best {
+                    ul {
+                        gap: 2rem;
+                    }
+                }
+                .dear {
+                    gap: 2rem;
+                    padding-bottom: 2rem;
+                    i {
+                        font-size: 19px;
+                    }
+                }
+            }
+            .lober {
+                margin-top: 4rem;
+                .max {
+                    gap: 1rem;
+                    p {
+                        color: grey;
+                    }
+                }
+                .mini {
+                    p {
+                        color: grey;
+                    }
+                }
+            }
+        }
+    }
+}

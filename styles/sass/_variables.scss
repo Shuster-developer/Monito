@@ -1,0 +1,34 @@
+$mon-yellow:#F7DBA7;
+$kok:#003459;
+$white:#fff;
+$black:#000;
+$aqua:aqua;
+.btn {
+    padding: 9px 23px;
+    background-color: inherit;
+    border: 2px solid $kok;
+    border-radius: 15px;
+    color: $kok;
+    &:hover {
+        background-color:$kok;
+        color: $white;
+    }
+    &:active {
+        background-color:#003459a3 ;
+    }
+}
+
+.btn-2 {
+    padding: 9px 23px;
+    background-color: $kok;
+    border: 2px solid $kok;
+    border-radius: 15px;
+    color: $white;
+    &:hover {
+        background-color: $mon-yellow;
+        color: $kok;
+    }
+    &:active {
+        background-color: #ac750e9b;
+    }
+}

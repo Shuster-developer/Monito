@@ -1,0 +1,1283 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+section {
+  padding: 4rem 0;
+}
+
+.btn {
+  padding: 9px 23px;
+  background-color: inherit;
+  border: 2px solid #003459;
+  border-radius: 15px;
+  color: #003459;
+}
+.btn:hover {
+  background-color: #003459;
+  color: #fff;
+}
+.btn:active {
+  background-color: rgba(0, 52, 89, 0.6392156863);
+}
+
+.btn-2 {
+  padding: 9px 23px;
+  background-color: #003459;
+  border: 2px solid #003459;
+  border-radius: 15px;
+  color: #fff;
+}
+.btn-2:hover {
+  background-color: #F7DBA7;
+  color: #003459;
+}
+.btn-2:active {
+  background-color: rgba(172, 117, 14, 0.6078431373);
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.ummumiy {
+  background-color: rgba(255, 231, 186, 0.7529411765);
+}
+.ummumiy #main-header {
+  padding: 2rem 0;
+}
+.ummumiy #main-header .sider {
+  display: none;
+}
+.ummumiy #main-header .sider .sider-links {
+  z-index: 999;
+  padding: 0 2rem;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  min-width: 150px;
+  background-color: #003459;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+.ummumiy #main-header .sider .sider-links input {
+  padding-left: 2.5rem;
+  width: 280px;
+  height: 37px;
+  border-radius: 20px;
+  border: none;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+.ummumiy #main-header .sider .sider-links .button {
+  background-color: #F7DBA7;
+  border: none;
+  border-radius: 20px;
+  width: 280px;
+  height: 37px;
+}
+.ummumiy #main-header .sider .sider-links .nik {
+  position: absolute;
+  left: 14%;
+  top: 49%;
+  font-size: 18px;
+}
+.ummumiy #main-header .sider .sider-links li {
+  color: #fff;
+  padding-top: 1rem;
+}
+.ummumiy #main-header .sider .sider-links li:hover {
+  color: #F7DBA7;
+}
+.ummumiy #main-header .sider .sider-links label {
+  color: #fff;
+  display: block;
+  text-align: right;
+  padding-left: 8rem;
+  padding-top: 4rem;
+}
+.ummumiy #main-header .sider input:checked + .sider-links {
+  transform: translateX(0);
+}
+.ummumiy #main-header ul {
+  gap: 3rem;
+}
+.ummumiy #main-header ul li {
+  color: #003459;
+  font-size: 16px;
+  font-weight: 700;
+}
+.ummumiy #main-header ul li:hover {
+  font-size: 17px;
+}
+.ummumiy #main-header .box {
+  position: relative;
+}
+.ummumiy #main-header .box input {
+  padding-left: 2.5rem;
+  width: 280px;
+  height: 44px;
+  border-radius: 20px;
+  border: none;
+  margin-right: 1rem;
+}
+.ummumiy #main-header .box input:hover {
+  border: #fff;
+}
+.ummumiy #main-header .box i {
+  position: absolute;
+  right: 93%;
+  top: 30%;
+  font-size: 18px;
+}
+.ummumiy #main-header .box .button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 18px;
+  background-color: #003459;
+  color: #fff;
+}
+.ummumiy #main-header .box .button:hover {
+  background-color: #fff;
+  color: #003459;
+}
+.ummumiy #main-header .ctas .dropdown {
+  position: relative;
+}
+.ummumiy #main-header .ctas .dropdown .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 1;
+  transition: 0.3s all ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+  background-color: #fff;
+  width: 40px;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+.ummumiy #main-header .ctas .dropdown input:checked + .dropdown-menu {
+  visibility: visible;
+  opacity: 1;
+}
+.ummumiy #main-header .icon {
+  display: none;
+}
+
+#showcase {
+  padding-bottom: 0;
+}
+#showcase .container .alohida {
+  position: relative;
+  overflow: hidden;
+}
+#showcase .container .alohida .bir {
+  z-index: 0;
+  position: absolute;
+  left: 5px;
+  top: 30px;
+}
+#showcase .container .alohida .ikki {
+  position: absolute;
+  left: 50%;
+}
+#showcase .container .alohida .uch {
+  position: absolute;
+  left: 50%;
+  top: 14%;
+  z-index: 0;
+}
+#showcase .container .alohida .tort {
+  position: absolute;
+  left: 50%;
+  top: 16%;
+  z-index: 1;
+}
+#showcase .container .alohida .besh {
+  position: absolute;
+  left: 50%;
+  top: 43%;
+}
+#showcase .container .alohida .olti {
+  position: absolute;
+  left: 53.8%;
+  top: 29%;
+  z-index: 0;
+}
+#showcase .container .alohida .portion {
+  display: flex;
+  flex-direction: column;
+}
+#showcase .container .alohida .portion h1 {
+  font-size: 60px;
+  font-weight: 800;
+  color: #003459;
+  z-index: 2;
+}
+#showcase .container .alohida .portion h1 span {
+  font-size: 46px;
+  font-weight: 700;
+}
+#showcase .container .alohida .portion p {
+  width: 480px;
+  margin-bottom: 2rem;
+}
+#showcase .container .alohida .portion .btn-2 {
+  margin-left: 1rem;
+}
+#showcase .container .alohida .portion-2 {
+  position: relative;
+}
+#showcase .container .alohida .portion-2 .borch {
+  z-index: -1;
+}
+#showcase .container .alohida .portion-2 img {
+  margin-left: 1rem;
+  width: 1450px;
+  height: 550px;
+}
+
+#category .container .birga h3 {
+  padding-bottom: 1rem;
+}
+#category .container .birga .okey h2 {
+  color: #003459;
+}
+#category .container .birga .kuchuklar {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+}
+#category .container .birga .kuchuklar .kuchuk {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #fff;
+  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.518);
+  width: 280px;
+  border-radius: 10px;
+}
+#category .container .birga .kuchuklar .kuchuk img {
+  border-radius: 10px;
+}
+#category .container .birga .kuchuklar .kuchuk h3 {
+  padding: 1rem 0;
+}
+#category .container .birga .kuchuklar .kuchuk h5 {
+  color: #667479;
+}
+#category .container .birga .kuchuklar .kuchuk h5 span {
+  font-weight: 900;
+}
+#category .container .birga .cap {
+  display: none;
+}
+
+#explore .container .group {
+  align-items: center;
+  border-radius: 15px;
+  background-color: rgba(0, 52, 89, 0.7921568627);
+  border: none;
+  overflow: hidden;
+  z-index: 1;
+  position: relative;
+}
+#explore .container .group .one {
+  position: absolute;
+  bottom: -40%;
+  left: 0;
+}
+#explore .container .group .two {
+  position: absolute;
+  right: 0;
+  top: -7rem;
+}
+#explore .container .group .portion-4 {
+  overflow: hidden;
+  margin-top: 2rem;
+  z-index: 1;
+}
+#explore .container .group .portion-5 {
+  z-index: 1;
+}
+#explore .container .group .portion-5 h2 {
+  font-size: 52px;
+  font-weight: 800;
+  color: #003459;
+}
+#explore .container .group .portion-5 h3 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #003459;
+  padding-left: 1rem;
+}
+#explore .container .group .portion-5 p {
+  width: 570px;
+  padding: 1.5rem 0;
+}
+#explore .container .group .portion-5 .jon .btn-2 {
+  margin-left: 1rem;
+}
+
+#product .container .family .koy h3 {
+  color: #003459;
+}
+#product .container .family .boxlar {
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+#product .container .family .boxlar .box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 280px;
+  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.462);
+}
+#product .container .family .boxlar .box .bov {
+  margin-top: 0.6rem;
+}
+#product .container .family .boxlar .box .noar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 1rem;
+}
+#product .container .family .boxlar .box .noar h5 {
+  padding: 0.7rem 0;
+  color: #667479;
+}
+#product .container .family .boxlar .box .noar h5 span {
+  font-weight: 900;
+}
+#product .container .family .boxlar .box .noar h3 {
+  padding: 0.3rem 0;
+}
+#product .container .family .boxlar .box .noar .back {
+  padding: 7px 17px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: #FCEED5;
+  margin: 1rem 0;
+}
+
+#seller .container .kiv .low {
+  display: flex;
+  align-items: center;
+}
+#seller .container .kiv .low h3 {
+  padding-left: 0.5rem;
+  font-size: 24px;
+  font-weight: 700;
+  color: #003459;
+}
+#seller .container .war {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+#seller .container .war img {
+  width: 100px;
+}
+
+#adoption .container .moil {
+  background-color: #FFB775;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  overflow: hidden;
+}
+#adoption .container .moil .three {
+  position: absolute;
+  left: 0;
+  top: -5rem;
+}
+#adoption .container .moil .four {
+  position: absolute;
+  right: 0;
+  bottom: -5rem;
+}
+#adoption .container .moil .portion-6 {
+  z-index: 1;
+}
+#adoption .container .moil .portion-6 h2 {
+  color: #003459;
+  font-size: 52px;
+  font-weight: 800;
+}
+#adoption .container .moil .portion-6 h3 {
+  color: #003459;
+  font-size: 36px;
+  font-weight: 700;
+}
+#adoption .container .moil .portion-6 p {
+  width: 270px;
+  padding: 1rem 0;
+}
+#adoption .container .moil .portion-6 .btn {
+  margin-left: 1em;
+}
+#adoption .container .moil .portion-7 {
+  z-index: 1;
+}
+
+#knowledge .container .pow .very h2 {
+  color: #003459;
+}
+#knowledge .container .pow .portion-8 {
+  display: flex;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+#knowledge .container .pow .portion-8 .sobak {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 380px;
+  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.492);
+  justify-content: center;
+}
+#knowledge .container .pow .portion-8 .sobak img {
+  border-radius: 10px;
+}
+#knowledge .container .pow .portion-8 .sobak .pop {
+  padding-left: 1rem;
+}
+#knowledge .container .pow .portion-8 .sobak .pop h4 {
+  width: 300px;
+  padding: 0.5rem 0;
+}
+#knowledge .container .pow .portion-8 .sobak .pop p {
+  width: 340px;
+  padding-bottom: 1rem;
+}
+#knowledge .container .pow .portion-8 .sobak .pop .ura {
+  margin: 0.5rem 0;
+  border: none;
+  border-radius: 10px;
+  padding: 4px 10px;
+  background-color: aqua;
+}
+
+#footer {
+  background-color: rgba(241, 208, 146, 0.7647058824);
+}
+#footer .container .aqlli {
+  padding: 5rem 0;
+}
+#footer .container .aqlli .uzun {
+  width: 100%;
+  height: 130px;
+  background-color: #003459;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 13px;
+}
+#footer .container .aqlli .uzun .portion-9 h2 {
+  color: #fff;
+  width: 380px;
+  text-transform: capitalize;
+}
+#footer .container .aqlli .uzun .portion-10 {
+  width: 700px;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#footer .container .aqlli .uzun .portion-10 input {
+  width: 500px;
+  height: 45px;
+  border-radius: 7px;
+  border: 1px solid grey;
+}
+#footer .container .aqlli .uzun .portion-10 input::-moz-placeholder {
+  padding-left: 1rem;
+}
+#footer .container .aqlli .uzun .portion-10 input:-ms-input-placeholder {
+  padding-left: 1rem;
+}
+#footer .container .aqlli .uzun .portion-10 input::placeholder {
+  padding-left: 1rem;
+}
+#footer .container .aqlli .uzun .portion-10 .btn-2 {
+  padding: 12px 28px;
+  border-radius: 10px;
+}
+#footer .container .aqlli .moh {
+  border-bottom: 1px solid #000;
+  margin-top: 3rem;
+}
+#footer .container .aqlli .moh .best ul {
+  gap: 2rem;
+}
+#footer .container .aqlli .moh .dear {
+  gap: 2rem;
+  padding-bottom: 2rem;
+}
+#footer .container .aqlli .moh .dear i {
+  font-size: 19px;
+}
+#footer .container .aqlli .lober {
+  margin-top: 4rem;
+}
+#footer .container .aqlli .lober .max {
+  gap: 1rem;
+}
+#footer .container .aqlli .lober .max p {
+  color: grey;
+}
+#footer .container .aqlli .lober .mini p {
+  color: grey;
+}
+
+@media (max-width: 1370px) {
+  .container {
+    width: 1100px;
+    margin: 0 auto;
+  }
+  #knowledge .container .pow .portion-8 {
+    justify-content: center;
+    gap: 3rem;
+  }
+  #footer .container .aqlli .uzun .portion-9 h2 {
+    font-size: 20px;
+    width: 340px;
+  }
+  #showcase .container .alohida .olti {
+    position: absolute;
+    left: 50%;
+  }
+  #showcase .container .alohida .besh {
+    left: 45%;
+  }
+  #showcase .container .alohida .portion-2 img {
+    width: 1300px;
+    height: 480px;
+  }
+  #category .container .birga .kuchuklar {
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #product .container .family .boxlar {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 1170px) {
+  .container {
+    width: 900px;
+    margin: 0 auto;
+  }
+  #main-header .container ul {
+    gap: 1rem;
+  }
+  #main-header .container ul li {
+    font-size: 15px;
+  }
+  #main-header .container .box input {
+    width: 220px;
+    height: 35px;
+    padding-left: 2rem;
+  }
+  #main-header .container .box i {
+    font-size: 15px;
+  }
+  #main-header .container .button {
+    padding: 8px 16px;
+  }
+  #footer .container .aqlli .uzun .portion-10 {
+    width: 400px;
+  }
+  #footer .container .aqlli .uzun .portion-10 input {
+    width: 250px;
+  }
+  #footer .container .aqlli .uzun .portion-10 .btn-2 {
+    padding: 12px 17px;
+  }
+  #adoption .container .moil .portion-6 {
+    padding-left: 3rem;
+  }
+  #adoption .container .moil .portion-6 h2 {
+    font-size: 37px;
+  }
+  #adoption .container .moil .portion-6 h3 {
+    font-size: 30px;
+  }
+  #showcase .container .alohida .portion h1 {
+    font-size: 40px;
+  }
+  #showcase .container .alohida .portion h1 span {
+    font-size: 36px;
+  }
+  #showcase .container .alohida .portion p {
+    width: 370px;
+  }
+  #showcase .container .alohida .portion-2 img {
+    position: relative;
+    width: 1200px;
+    height: 430px;
+  }
+  #showcase .container .alohida .besh {
+    left: 49%;
+  }
+  #knowledge .container .pow .portion-8 {
+    justify-content: space-evenly;
+  }
+  #knowledge .container .pow .portion-8 .sobak3 {
+    margin-top: 2rem;
+  }
+  #explore .container .group .portion-4 img {
+    padding-top: 2rem;
+  }
+  #explore .container .group .portion-5 h2 {
+    font-size: 34px;
+  }
+  #explore .container .group .portion-5 h3 {
+    font-size: 19;
+  }
+  #explore .container .group .portion-5 p {
+    padding-right: 2rem;
+    width: 400px;
+  }
+}
+@media (max-width: 950px) {
+  .container {
+    width: 800px;
+    margin: 0 auto;
+  }
+  #main-header .container {
+    justify-content: space-around;
+  }
+  #main-header .container .birgalikda {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #main-header .container .ctas {
+    display: none;
+  }
+  #main-header .container .icon {
+    display: block;
+  }
+  #main-header .container .sider {
+    display: block;
+  }
+  #main-header .container .sider .sider-links .nik {
+    top: 57%;
+  }
+  #main-header .container ul.wdn {
+    display: none;
+  }
+  #main-header .container .box .button {
+    display: none;
+  }
+  #main-header .container .box input {
+    display: none;
+  }
+  #main-header .container .box .jap {
+    display: none;
+  }
+  #main-header .container .box .icon {
+    display: block;
+  }
+  #main-header .container h3 {
+    display: none;
+  }
+  #seller {
+    display: none;
+  }
+  #footer .container .aqlli .uzun {
+    flex-direction: column;
+  }
+  #footer .container .aqlli .uzun .portion-9 h2 {
+    width: 460px;
+  }
+  #knowledge .container .pow .portion-8 .sobak2 {
+    display: none;
+  }
+  #knowledge .container .pow .portion-8 .sobak3 {
+    display: none;
+  }
+  #showcase .container .alohida {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  #showcase .container .alohida .ikki {
+    z-index: 0;
+  }
+  #showcase .container .alohida .uch {
+    z-index: -1;
+  }
+  #showcase .container .alohida .tort {
+    z-index: -1;
+  }
+  #showcase .container .alohida .besh {
+    left: 2%;
+    margin-top: 2rem;
+  }
+  #showcase .container .alohida .olti {
+    left: 3%;
+    top: 40%;
+    margin-top: 2rem;
+  }
+  #showcase .container .alohida .portion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #showcase .container .alohida .portion h1 {
+    width: 400px;
+    z-index: 1;
+  }
+  #showcase .container .alohida .portion p {
+    z-index: 1;
+  }
+  #showcase .container .alohida .portion-2 {
+    margin-top: 2rem;
+  }
+  #showcase .container .alohida .portion-2 img {
+    width: 600px;
+  }
+  #adoption {
+    display: none;
+  }
+  #category .container .birga .kuchuklar {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  #product .container .family .boxlar {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+}
+@media (max-width: 835px) {
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+  #main-header .container .sider {
+    display: block;
+  }
+  #footer .container .aqlli .uzun .portion-9 h2 {
+    font-size: 15px;
+  }
+  #showcase .container .alohida .besh {
+    left: 29px;
+    height: 500px;
+  }
+  #showcase .container .alohida .olti {
+    left: 30px;
+    width: 650px;
+  }
+  #explore .container .group {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  #explore .container .group .portion-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #explore .container .group .portion-5 h2 {
+    margin-top: 2rem;
+    font-size: 28px;
+  }
+  #explore .container .group .portion-5 h3 {
+    font-size: 24px;
+    margin: 0 auto;
+  }
+  #explore .container .group .portion-5 p {
+    margin: 0 auto;
+    width: 500px;
+    padding-right: 0;
+    text-align: center;
+  }
+  #explore .container .group .portion-4 img {
+    width: 500px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 600px;
+    margin: 0 auto;
+  }
+  #showcase .container .alohida .besh {
+    left: 40px;
+    width: 350px;
+  }
+  #showcase .container .alohida .olti {
+    left: 50px;
+    top: 45%;
+    width: 500px;
+  }
+}
+@media (max-width: 650px) {
+  .container {
+    width: 580px;
+    margin: 0 auto;
+  }
+  #category .container .birga h3 {
+    padding-bottom: 1rem;
+  }
+  #category .container .birga .okey h2 {
+    width: 200px;
+  }
+  #category .container .birga .kuchuklar {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 1rem;
+  }
+  #category .container .birga .kuchuklar .kuchuk {
+    width: 200px;
+  }
+  #category .container .birga .kuchuklar .kuchuk img {
+    width: 180px;
+    margin-top: 0.4rem;
+  }
+  #category .container .birga .kuchuklar .kuchuk h3 {
+    width: 150px;
+    font-size: 16px;
+  }
+  #product .container .family .boxlar {
+    gap: 1rem;
+  }
+  #product .container .family .boxlar .box {
+    width: 200px;
+  }
+  #product .container .family .boxlar .box .bov {
+    width: 180px;
+  }
+  #product .container .family .boxlar .box .noar h3 {
+    font-size: 16px;
+  }
+  #product .container .family .boxlar .box .noar .back {
+    padding: 7px 10px;
+    margin-right: 1rem;
+  }
+  #product .container .family .boxlar .box .noar a {
+    font-size: 14px;
+  }
+  #explore .container .group .portion-5 p {
+    width: 400px;
+  }
+}
+@media (max-width: 620px) {
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+  #showcase .container .alohida .besh {
+    left: 36px;
+    width: 400px;
+  }
+  #showcase .container .alohida .olti {
+    top: 28%;
+    left: 37px;
+    width: 470px;
+    height: 1000px;
+  }
+}
+@media (max-width: 520px) {
+  .container {
+    width: 470px;
+  }
+  #product {
+    display: none;
+  }
+  #showcase .container {
+    width: 100%;
+  }
+  #showcase .container .alohida .olti {
+    left: 160px;
+    width: 500px;
+  }
+  #showcase .container .alohida .besh {
+    left: 120px;
+    width: 470px;
+    top: 40%;
+  }
+  #showcase .container .alohida .portion-2 img {
+    width: 520px;
+    height: 380px;
+  }
+  #footer .container .aqlli .uzun {
+    height: 300px;
+    width: 370px;
+    margin: 0 auto;
+  }
+  #footer .container .aqlli .uzun .portion-9 h2 {
+    width: 250px;
+  }
+  #footer .container .aqlli .uzun .portion-10 {
+    height: 150px;
+    width: 300px;
+  }
+  #footer .container .aqlli .uzun .portion-10 form {
+    flex-direction: column;
+    display: flex;
+    gap: 1rem;
+  }
+  #footer .container .aqlli .moh {
+    border: none;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  #footer .container .aqlli .moh .best ul {
+    gap: 1;
+    justify-content: center;
+    margin-left: 5rem;
+  }
+  #footer .container .aqlli .moh .dear {
+    justify-content: center;
+  }
+  #footer .container .aqlli .lober {
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
+  #knowledge .container .pow .portion-8 .sobak {
+    margin-top: 3rem;
+    align-items: center;
+    display: flex;
+  }
+  #knowledge .container .pow .portion-8 .sobak2 {
+    display: flex;
+  }
+  #knowledge .container .pow .portion-8 .sobak3 {
+    display: flex;
+  }
+  #category .container .birga .cap {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  #category .container .birga .cap .btn {
+    padding: 12px 170px;
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    width: 460px;
+  }
+  #showcase .container {
+    width: 100%;
+  }
+  #showcase .container .alohida {
+    justify-content: center;
+  }
+  #showcase .container .alohida .portion-2 {
+    margin-top: 2rem;
+  }
+  #showcase .container .alohida .portion-2 img {
+    width: 600px;
+    height: 320px;
+  }
+  #showcase .container .alohida .portion {
+    margin-bottom: 1rem;
+  }
+  #showcase .container .alohida .portion h1 {
+    width: 350px;
+    margin: 0 auto;
+    font-size: 29px;
+  }
+  #showcase .container .alohida .portion h1 span {
+    display: flex;
+  }
+  #showcase .container .alohida .portion p {
+    width: 350px;
+    margin-top: 1rem;
+  }
+  #category .container .birga .cap {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  #category .container .birga .cap .btn {
+    padding: 12px 130px;
+  }
+  #explore .container .group .portion-5 p {
+    width: 380px;
+  }
+}
+@media (max-width: 470px) {
+  .container {
+    width: 450px;
+  }
+  #showcase .container {
+    width: 100%;
+  }
+  #showcase .container .alohida .portion-2 img {
+    width: 150%;
+  }
+}
+@media (max-width: 455px) {
+  .container {
+    width: 430px;
+  }
+  #showcase .container {
+    width: 100%;
+  }
+  #showcase .container .alohida .portion-2 img {
+    width: 150%;
+  }
+}
+@media (max-width: 445px) {
+  .container {
+    width: 400px;
+  }
+  #showcase .container .alohida {
+    justify-content: center;
+    align-items: center;
+  }
+  #showcase .container .alohida .portion-2 {
+    width: 450px;
+  }
+}
+@media (max-width: 450px) {
+  .container {
+    width: 350px;
+  }
+  #category .container .birga h3 {
+    font-size: 13px;
+  }
+  #category .container .birga .okey h2 {
+    font-size: 16px;
+    width: 250px;
+  }
+  #category .container .birga .okey .btn {
+    display: none;
+  }
+  #category .container .birga .kuchuklar {
+    justify-items: center;
+    gap: 1rem;
+  }
+  #category .container .birga .kuchuklar .kuchuk {
+    width: 150px;
+  }
+  #category .container .birga .kuchuklar .kuchuk img {
+    width: 130px;
+  }
+  #category .container .birga .kuchuklar .kuchuk h3 {
+    font-size: 14px;
+    width: 130px;
+    margin: 0 auto;
+  }
+  #category .container .birga .kuchuklar .kuchuk h5 {
+    width: 130px;
+    margin: 0 auto;
+  }
+  #category .container .birga .cap .btn {
+    padding: 8px 50px;
+  }
+  #explore .container .group .portion-5 p {
+    width: 300px;
+  }
+  #footer .container .aqlli .uzun {
+    width: 300px;
+  }
+  #footer .container .aqlli .uzun .portion-9 h2 {
+    font-size: 15px;
+  }
+  #footer .container .aqlli .uzun .portion-10 {
+    width: 250px;
+  }
+  #footer .container .aqlli .uzun .portion-10 input {
+    width: 220px;
+  }
+  #footer .container .aqlli .moh .best {
+    padding-right: 5rem;
+  }
+  #footer .container .aqlli .moh .best ul {
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+  }
+  #knowledge .container .pow .very h2 {
+    font-size: 17px;
+  }
+  #knowledge .container .pow .very .btn {
+    display: none;
+  }
+  #knowledge .container .pow .portion-8 .sobak {
+    width: 300px;
+  }
+  #knowledge .container .pow .portion-8 .sobak img {
+    width: 270px;
+    margin-top: 0.5rem;
+  }
+  #knowledge .container .pow .portion-8 .sobak .pop h4 {
+    font-size: 15px;
+    width: 270px;
+  }
+  #knowledge .container .pow .portion-8 .sobak .pop p {
+    width: 270px;
+  }
+}
+@media (max-width: 360px) {
+  .container {
+    width: 290px;
+  }
+  #showcase .container .alohida .portion h1 {
+    font-size: 25px;
+    width: 240px;
+  }
+  #showcase .container .alohida .portion h1 span {
+    font-size: 20px;
+  }
+  #showcase .container .alohida .portion p {
+    width: 240px;
+  }
+  #showcase .container .alohida .portion-2 img {
+    width: 600px;
+  }
+  #main-header .sider .sider-links {
+    max-width: 250px;
+  }
+  #main-header .sider .sider-links input {
+    max-width: 200px;
+  }
+  #main-header .sider .sider-links input::-moz-placeholder {
+    font-size: 13px;
+  }
+  #main-header .sider .sider-links input:-ms-input-placeholder {
+    font-size: 13px;
+  }
+  #main-header .sider .sider-links input::placeholder {
+    font-size: 13px;
+  }
+  #main-header .sider .sider-links .button {
+    max-width: 200px;
+    height: 38px;
+  }
+  #main-header .sider .sider-links .button a {
+    font-size: 13px;
+  }
+  #category .container .birga .kuchuklar {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #category .container .birga .kuchuklar .kuchuk {
+    width: 120px;
+  }
+  #category .container .birga .kuchuklar .kuchuk img {
+    width: 100px;
+  }
+  #category .container .birga .kuchuklar .kuchuk h3 {
+    font-size: 12px;
+    width: 100px;
+  }
+  #category .container .birga .kuchuklar .kuchuk h5 {
+    width: 100px;
+  }
+  #footer .container .aqlli .uzun {
+    width: 250px;
+  }
+  #footer .container .aqlli .uzun .portion-9 h2 {
+    font-size: 14px;
+    width: 200px;
+  }
+  #footer .container .aqlli .uzun .portion-10 {
+    width: 220px;
+  }
+  #footer .container .aqlli .uzun .portion-10 input {
+    width: 200px;
+  }
+  #explore .container .group .portion-5 p {
+    width: 200px;
+  }
+  #explore .container .group .portion-5 .jon .btn {
+    padding: 10px 15px;
+  }
+  #explore .container .group .portion-5 .jon .btn-2 {
+    padding: 10px 15px;
+  }
+}
+@media (max-width: 300px) {
+  .container {
+    width: 270px;
+  }
+  #main-header .container .sider .sider-links {
+    min-width: 150px;
+  }
+  #category .container .birga .kuchuklar .kuchuk {
+    width: 120px;
+  }
+}
+@media (max-width: 290px) {
+  .container {
+    width: 270px;
+  }
+  #showcase .container .alohida .portion .btn-2 {
+    padding: 8px 10px;
+  }
+  #showcase .container .alohida .portion .btn-2 {
+    padding: 8px 10px;
+  }
+  #knowledge .container .pow .portion-8 .sobak {
+    width: 260px;
+  }
+  #knowledge .container .pow .portion-8 .sobak img {
+    width: 250px;
+  }
+  #knowledge .container .pow .portion-8 .sobak .pop p {
+    width: 250px;
+  }
+}
+@media (max-width: 285px) {
+  .container {
+    width: 260px;
+  }
+}/*# sourceMappingURL=main.css.map */

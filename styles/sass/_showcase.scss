@@ -1,0 +1,76 @@
+#showcase {
+    padding-bottom: 0;
+    .container {
+        .alohida {
+            position: relative;
+            overflow: hidden;
+            .bir {
+                z-index:0;
+                position: absolute;
+                left: 5px;
+                top: 30px;
+            }
+            .ikki {
+                position: absolute;
+                left: 50%;
+            }
+            .uch {
+                position: absolute;
+                left: 50%;
+                top: 14%;
+                z-index: 0;
+            }
+            .tort {
+                position: absolute;
+                left: 50%;
+                top: 16%;
+                z-index: 1;
+            }
+            .besh {
+                position: absolute;
+                left: 50%;
+                top: 43%;
+                
+            }
+            .olti {
+                position: absolute;
+                left: 53.8%;
+                top: 29%;
+                z-index: 0;
+            }
+            .portion {
+                display: flex;
+                flex-direction: column;
+                h1 {
+                    font-size:60px ;
+                    font-weight: 800;
+                    color:$kok;
+                    z-index: 2;
+                    span {
+                        font-size:46px ;
+                        font-weight: 700;
+                    }
+                }
+                p {
+                    width: 480px;
+                    margin-bottom: 2rem;
+                }
+                .btn-2 {
+                    margin-left: 1rem;
+                }
+
+            }
+            .portion-2 {
+                position: relative;
+                .borch {
+                    z-index: -1;
+                }
+                img {
+                    margin-left: 1rem;
+                    width: 1450px;
+                    height: 550px;
+                }
+            }
+        }
+    }
+}

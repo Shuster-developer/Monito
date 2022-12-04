@@ -1,0 +1,24 @@
+#seller {
+    .container {
+        .kiv {
+            .low {
+                display: flex;
+                align-items: center;
+                h3 {
+                    padding-left: 0.5rem;
+                    font-size: 24px;
+                    font-weight: 700;
+                    color: $kok;
+                }
+            }
+        }
+        .war {
+            margin-top: 2rem;
+            display:flex;
+            justify-content: space-around;
+            img {
+                width: 100px;
+            }
+        }
+    }
+}

@@ -1,0 +1,50 @@
+#product {
+    .container {
+        .family {
+            .koy {
+                h3 {
+                    color:$kok;
+                }
+            }
+            .boxlar {
+                padding-top: 2rem;
+                display: grid;
+                grid-template-columns: repeat(4,1fr);
+                gap: 2rem;
+                .box {
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    width: 280px;
+                    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.462);
+                    .bov {
+                        margin-top: 0.6rem;
+                    }
+                    .noar {
+                        display:flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        padding-left: 1rem;
+                        h5 {
+                            padding: 0.7rem 0;
+                            color: #667479;
+                            span {
+                                font-weight: 900
+                            }
+                        }
+                        h3 {
+                            padding: 0.3rem 0;
+                        }
+                        .back {
+                            padding: 7px 17px;
+                            border: 1px solid $black;
+                            border-radius: 10px;
+                            background-color: #FCEED5;
+                            margin: 1rem 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

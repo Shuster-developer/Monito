@@ -1,0 +1,45 @@
+#adoption {
+    .container {
+        .moil {
+            background-color: #FFB775;
+            border-radius: 15px;
+            align-items: center;
+            justify-content: space-around;
+            position: relative;
+            overflow: hidden;
+            .three {
+                position: absolute;
+                left: 0;
+                top: -5rem;
+            }
+            .four {
+                position: absolute;
+                right: 0;
+                bottom: -5rem;
+            }
+            .portion-6 {
+                z-index: 1;
+                h2 {
+                    color: $kok;
+                    font-size: 52px;
+                    font-weight: 800;
+                }
+                h3 {
+                    color: $kok;
+                    font-size: 36px;
+                    font-weight: 700;
+                }
+                p {
+                    width: 270px;
+                    padding: 1rem 0;
+                }
+                .btn {
+                    margin-left: 1em;
+                }
+            }
+            .portion-7 {
+                z-index: 1;
+            }
+        }
+    }
+}

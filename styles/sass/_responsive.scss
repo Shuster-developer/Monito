@@ -1,0 +1,1098 @@
+@media (max-width:1370px) {
+    .container {
+        width: 1100px;
+        margin: 0 auto;
+    }
+    // #main-header {
+    //     .container {
+            
+    //     }
+    // }
+    #knowledge {
+        .container {
+            .pow {
+                .portion-8 {
+                    justify-content: center;
+                    gap: 3rem;
+                }
+            }
+        }
+    }
+    #footer {
+        .container {
+            .aqlli{
+                .uzun {
+                    .portion-9 {
+                        h2 {
+                            font-size: 20px;
+                            width: 340px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #showcase {
+        .container {
+            .alohida {
+                .olti {
+                    position: absolute;
+                    left: 50%;
+                }
+                .besh {
+                    left: 45%;
+                }
+                .portion-2 {
+                    img {
+                      width: 1300px;
+                      height: 480px;
+                    }
+                }
+            }
+        }
+    }
+    #category {
+        .container {
+            .birga {
+               .kuchuklar {
+                 gap: 2rem;
+                 grid-template-columns: repeat(3,1fr);
+               } 
+            }
+        }
+    }
+    #product {
+        .container {
+            .family {
+                .boxlar {
+                    grid-template-columns: repeat(3,1fr);
+                } 
+            }
+        }
+    }
+}
+
+@media (max-width:1170px) {
+    .container {
+        width:900px;
+        margin: 0 auto;
+    }
+
+    #main-header {
+        .container {
+            ul {
+                gap: 1rem;
+                li {
+                    font-size: 15px;
+                }
+            }
+            .box {
+                input {
+                    width: 220px;
+                    height: 35px;
+                    padding-left: 2rem;
+                }
+                i {
+                    font-size: 15px;
+                }
+            }
+            .button {
+                padding: 8px 16px;
+            }
+           
+            
+        }
+    }
+    #footer {
+        .container {
+            .aqlli {
+                .uzun {
+                    .portion-10 {
+                        width: 400px;
+                        input {
+                            width: 250px;
+                        }
+                        .btn-2 {
+                            padding: 12px 17px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #adoption {
+        .container {
+            .moil {
+              .portion-6 {
+                padding-left: 3rem;
+                h2 {
+                    font-size: 37px;
+                }
+                h3 {
+                   font-size: 30px; 
+                }
+              }  
+            }
+        }
+    }
+    #showcase {
+        .container {
+            .alohida {
+                .portion {
+                    h1 {
+                        font-size: 40px;
+                        span {
+                            font-size: 36px;
+                        }
+                    }
+                    p {
+                        width: 370px;
+                    }
+                }
+                .portion-2 {
+                    img {
+                        position: relative;
+                        width: 1200px;
+                        height: 430px;
+                    }
+                }
+                .besh {
+                    left: 49%;
+                }
+            }
+        }
+    }
+    #knowledge {
+        .container {
+            .pow {
+                .portion-8 {
+                    justify-content: space-evenly;
+                    .sobak3 {
+                        margin-top: 2rem;
+                    }
+                }
+            }
+        }
+    }
+    #explore {
+        .container {
+            .group {
+                .portion-4 {
+                    img {
+                        padding-top:2rem;
+                    }
+                }
+                .portion-5 {
+                    h2 {
+                        font-size: 34px;
+                    }
+                    h3 {
+                        font-size: 19;
+                    }
+                    p {
+                        padding-right: 2rem;
+                        width: 400px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:950px) {
+    .container {
+        width: 800px;
+        margin: 0 auto;
+    }
+    #main-header {
+        .container {
+            justify-content: space-around;
+            .birgalikda {
+                width: 800px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .ctas {
+                display:none ;
+            }
+            .icon {
+                display: block;
+            }
+            .sider {
+                display: block;
+                .sider-links {
+                    .nik {
+                        top: 57%;
+                    }
+                }
+            }
+    
+            ul.wdn {
+                display: none;
+            }
+    
+            .box {
+                .button {
+                display: none;
+                }
+    
+            input {
+                display: none;
+            }
+    
+            .jap {
+                display: none;
+            }
+            .icon {
+                display: block;
+            }
+        }
+    
+        h3 {
+            display: none;
+        }
+        }
+    }
+
+    #seller {
+        display: none;
+    }
+    #footer {
+        .container {
+            .aqlli {
+                .uzun {
+                    flex-direction: column;
+                    .portion-9 {
+                        h2 {
+                            width: 460px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #knowledge {
+        .container {
+            .pow {
+                .portion-8 {
+                    .sobak2 {
+                        display: none;
+                    }
+                    .sobak3 {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    #showcase {
+        .container {
+            .alohida {
+                justify-content: center;
+                .ikki {
+                    z-index: 0;
+                }
+                .uch {
+                    z-index: -1;
+                }
+                .tort {
+                    z-index: -1;
+                }
+                .besh {
+                    left: 2%;
+                    margin-top: 2rem;
+                }
+                .olti {
+                    left: 3%;
+                    top: 40%;
+                    margin-top: 2rem;
+                }
+                flex-direction: column;
+                align-items: center;
+                .portion {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    h1 {
+                        width: 400px;
+                        z-index: 1;
+                    }
+                    p {
+                        z-index: 1;
+                    }
+
+                }
+                .portion-2 {
+                    margin-top: 2rem;
+                    img {
+                        width: 600px;
+                    }
+                }
+            }
+        }
+    }
+
+    #adoption {
+        display: none;
+    }
+    #category {
+        .container {
+            .birga {
+                .kuchuklar {
+                    grid-template-columns: repeat(2,1fr);
+                    justify-items: center;
+                }
+            }
+        }
+    }
+    #product {
+        .container {
+            .family {
+                .boxlar {
+                    grid-template-columns: repeat(2,1fr);
+                    justify-items: center;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:835px) {
+    .container {
+        width: 700px;
+        margin: 0 auto;
+    }
+    #main-header {
+        .container {
+            .sider {
+                display: block;
+            }
+        }
+        
+    }
+    #footer {
+        .container {
+            .aqlli {
+                .uzun {
+                    .portion-9 {
+                        h2 {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #showcase {
+        .container {
+            .alohida {
+                .besh {
+                    left: 29px;
+                    height: 500px;
+                }
+                .olti {
+                    left: 30px;
+                    width: 650px;
+                }
+           }
+        }
+    }
+    #explore {
+        .container {
+            .group {
+                flex-direction: column-reverse;
+                align-items: center;
+                .portion-5 {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    h2 {
+                        margin-top: 2rem;
+                        font-size: 28px;
+                    }
+                    h3  {
+                        font-size: 24px;
+                        margin: 0 auto;
+                    }
+                    p {
+                        margin: 0 auto;
+                        width: 500px;
+                        padding-right: 0;
+                        text-align: center;
+                    }
+                }
+                .portion-4 {
+                    img {
+                        width: 500px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:720px) {
+    .container {
+        width: 600px;
+        margin: 0 auto;
+    }
+    #showcase {
+        .container {
+            .alohida {
+                .besh {
+                    left: 40px;
+                    width: 350px;
+                }
+                .olti {
+                    left:50px;
+                    top: 45%;
+                    width: 500px;
+                    
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:650px) {
+    .container {
+        width:580px;
+        margin: 0 auto;
+    }
+    #category {
+        .container {
+            .birga {
+                h3 {
+                    padding-bottom: 1rem;
+                }
+                .okey {
+                    h2 {
+                        width: 200px;
+                    }
+                }
+                .kuchuklar {
+                    grid-template-columns:repeat(2,1fr);
+                    margin-top: 1rem;
+                    .kuchuk {
+                        img {
+                            width: 180px;
+                            margin-top: 0.4rem;
+                        }
+                        width: 200px;
+                        h3 {
+                            width: 150px;
+                            font-size: 16px;
+                        }
+                    }   
+                }
+            }
+        }
+    }
+    #product {
+        .container {
+            .family {
+                .boxlar {
+                    gap: 1rem;
+                    .box {
+
+                        .bov {
+                            width: 180px;
+                        }
+                        width: 200px;
+                        .noar {
+                            h3 {
+                                font-size: 16px;
+                            }
+                            .back {
+                                padding: 7px 10px;
+                                margin-right:1rem ;
+                            }
+                            a {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #explore {
+        .container {
+            .group {
+                .portion-5 {
+                    p {
+                        width: 400px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:620px) {
+    .container {
+      width: 500px;
+      margin: 0 auto;  
+    }
+    #showcase {
+        .container {
+            .alohida {
+                .besh {
+                    left: 36px;
+                    width: 400px;
+                }
+                .olti {
+                    top:28%;
+                    left: 37px;
+                    width: 470px;
+                    height: 1000px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:520px) {
+    .container {
+        width: 470px;
+    }
+    #product {
+        display: none;
+    }
+    #showcase {
+        .container {
+            width: 100%;
+            .alohida {
+                .olti {
+                    left: 160px;
+                    width: 500px;
+                }
+                .besh {
+                    left: 120px;
+                    width: 470px;
+                    top: 40%;
+                } 
+                .portion-2 {
+                    img {
+                        width: 520px;
+                        height: 380px;
+                    }
+                }
+            }
+        }
+    }
+    #footer {
+        .container {
+            .aqlli {
+                .uzun {
+                    height: 300px;
+                    width: 370px;
+                    margin: 0 auto;
+                    .portion-9 {
+                       h2 {
+                        width: 250px;
+                       }
+                    }
+                    .portion-10 {
+                        height: 150px;
+                        width: 300px;
+                       form {
+                        flex-direction: column;
+                        display: flex;
+                        gap: 1rem;
+                       }
+                    }
+                }
+                .moh {
+                    border: none;
+                    flex-direction: column;
+                    gap: 1rem;
+                    .best {
+                        ul {
+                           gap: 1;
+                           justify-content: center;
+                           margin-left: 5rem;
+                        }
+                    }
+                    .dear {
+                        justify-content: center;
+                    }
+                }
+                .lober {
+                    flex-direction: column-reverse;
+                    gap: 1rem;
+                }
+            }
+ 
+        }
+    }
+    #knowledge {
+        .container {
+            .pow {
+                .portion-8 {
+                    .sobak {
+                        margin-top: 3rem;
+                        align-items: center;
+                        display: flex;
+                    }
+                    .sobak2 {
+                        display: flex;
+                    }
+                    .sobak3 {
+                        display: flex;
+                    }
+                }
+            }
+        }
+    }
+    #category {
+        .container {
+            .birga {
+                .cap {
+                    display:flex;
+                    justify-content: center;
+                    margin-top: 3rem;
+                
+                    .btn {
+                        padding: 12px 170px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:480px) {
+    .container {
+        width: 460px;
+    }
+    #showcase {
+        .container {
+            width: 100%;
+            .alohida {
+                justify-content: center;
+                .portion-2 {
+                    margin-top: 2rem;
+                    img {
+                        width: 600px;
+                        height: 320px;
+                    }
+                }
+                .portion {
+                    margin-bottom: 1rem;
+                    h1 {
+                        width: 350px;
+                        margin: 0 auto;
+                        font-size: 29px;
+                        span {
+                            display: flex;
+                        }
+
+                    }
+                    p {
+                        width: 350px;
+                        margin-top: 1rem;
+                    }
+                }
+            }
+        }
+
+    }
+    #category {
+        .container {
+            .birga {
+                .cap {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 3rem;
+    
+                    .btn {
+                        padding: 12px 130px;
+                    }
+                }
+            }
+        }
+    }
+    #explore {
+        .container {
+            .group {
+                .portion-5 {
+                    p {
+                        width: 380px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width:470px) {
+    .container {
+        width: 450px;
+    }
+
+    #showcase {
+        .container {
+            width: 100%;
+            .alohida {
+                .portion-2 {
+                    img {
+                        width: 150%;
+                    }
+                }
+            }
+        }
+
+    }
+
+}
+
+
+@media (max-width:455px) {
+    .container {
+        width: 430px;
+    }
+
+    #showcase {
+        .container {
+            width: 100%;
+
+            .alohida {
+                .portion-2 {
+                    img {
+                        width: 150%;
+                    }
+                }
+            }
+        }
+
+    }
+
+}
+
+@media (max-width:445px) {
+    .container {
+        width: 400px;
+    }
+    #showcase {
+        .container {
+            .alohida {
+                justify-content: center;
+                align-items: center;
+                .portion-2 {
+                    width: 450px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:450px) {
+    .container {
+        width: 350px;
+    }
+
+    #category {
+        .container {
+            .birga {
+                h3 {
+                    font-size: 13px;
+                }
+                .okey {
+                    h2 {
+                        font-size: 16px;
+                        width: 250px;
+                    }
+                    .btn{
+                        display:none;
+                    }
+                }
+                .kuchuklar {
+                    justify-items: center;
+                    gap: 1rem;
+                    .kuchuk {
+                        
+                        width: 150px;
+                        img {
+                            width: 130px;
+                        }
+                        h3 {
+                            font-size: 14px;
+                            width: 130px;
+                            margin: 0 auto;
+                        }
+                        h5 {
+                            width: 130px;
+                            margin: 0 auto;
+                        }
+                    }
+                }
+                .cap {
+                    .btn {
+                        padding: 8px 50px;
+                    }
+                }
+            }
+        }
+    }
+    #explore {
+        .container {
+            .group {
+                .portion-5 {
+                    p {
+                      width: 300px;  
+                    }
+                }
+            }
+        }
+    }
+
+    #footer {
+        .container {
+            .aqlli {
+                .uzun {
+                    width: 300px;
+                    .portion-9 {
+                        h2 {
+                            font-size: 15px;
+                        }
+                    }
+                    .portion-10 {
+                        width: 250px;
+                        input {
+                            width: 220px;
+                        }
+                    }
+                }
+                .moh {
+                    .best {
+                        padding-right: 5rem;
+                        ul {
+                            flex-wrap: wrap;
+                            gap: 1rem;
+                            align-items: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #knowledge {
+        .container {
+            .pow {
+                .very {
+                    h2 {
+                        font-size: 17px;
+                    }
+                    .btn {
+                        display: none;
+                    }
+                }
+                .portion-8 {
+                    .sobak {
+                        width: 300px;
+                        img {
+                            width: 270px;
+                            margin-top: 0.5rem;
+                        }
+                        .pop {
+                            h4 {
+                                font-size: 15px;
+                                width: 270px;
+                            }
+                            p {
+                                width: 270px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:360px) {
+    .container {
+        width: 290px;
+    }
+    #showcase {
+        .container {
+            .alohida {
+                .portion {
+                    h1 {
+                        font-size: 25px;
+                        width: 240px;
+                        span {
+                            font-size:20px;
+                        }
+                    }
+                    p {
+                        width: 240px;
+                    }
+                }
+                .portion-2 {
+                    img {
+                        width: 600px;
+                    }
+                }
+            }
+        }
+    }
+    #main-header {
+            .sider {
+                .sider-links {
+                    max-width:250px;
+                    input {
+                        max-width: 200px;
+                        &::placeholder {
+                            font-size: 13px;
+                        }
+                    }
+                    .button {
+                        max-width: 200px;
+                        height: 38px;
+                        a {
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+    }
+    #category {
+        .container {
+            .birga {
+                .kuchuklar {
+                    grid-template-columns: repeat(2,1fr);
+                    .kuchuk {
+                        width: 120px;
+                        img {
+                            width: 100px;
+                        }
+                        h3 {
+                            font-size: 12px;
+                            width: 100px;
+                        }
+                        h5 {
+                            width: 100px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #footer {
+        .container {
+            .aqlli {
+                .uzun {
+                    width: 250px;
+                    .portion-9 {
+                        h2 {
+                            font-size: 14px;
+                            width: 200px;
+                        }
+
+                    }
+                    .portion-10 {
+                        width: 220px;
+                        input {
+                            width: 200px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #explore {
+        .container {
+            .group {
+                .portion-5 {
+                    p {
+                        width: 200px;
+                    }
+                    .jon {
+                        .btn {
+                            padding: 10px 15px;
+                        }
+                        .btn-2 {
+                            padding: 10px 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+@media (max-width:300px) {
+    .container {
+        width: 270px;
+    }
+    #main-header {
+        .container {
+            .sider {
+                .sider-links {
+                    min-width: 150px;
+                }
+            }
+        }
+    }
+    #category {
+        .container {
+            .birga {
+                .kuchuklar {
+                    .kuchuk {
+                        width: 120px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:290px) {
+    .container {
+        width: 270px;
+    }
+    #showcase {
+        .container {
+            .alohida {
+                .portion {
+                    .btn-2 {
+                        padding: 8px 10px;
+                    }
+                    .btn-2 {
+                        padding: 8px 10px;
+                    }
+                }
+            }
+        }   
+    }
+    #knowledge {
+        .container {
+            .pow {
+                .portion-8 {
+                    .sobak {
+                        width: 260px;
+                        img {
+                            width: 250px;
+                        }
+                        .pop {
+                            p {
+                                width: 250px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+@media (max-width:285px) {
+    .container {
+        width: 260px;
+    }
+    
+}

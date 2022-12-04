@@ -1,0 +1,53 @@
+#explore {
+    .container {
+        .group {
+            align-items: center;
+            border-radius: 15px;
+            background-color: #003459ca;
+            border: none;
+            overflow:hidden;
+            z-index: 1;
+            position: relative;
+            .one {
+                position: absolute;
+                bottom:-40%;
+                left:0;
+            }
+            .two {
+                position: absolute;
+                right: 0;
+                top: -7rem;
+
+            }
+            .portion-4 {
+                overflow: hidden;
+                margin-top: 2rem;
+                z-index: 1;
+            }
+            .portion-5 {
+                z-index: 1;
+                h2 {
+                    font-size: 52px;
+                    font-weight: 800;
+                    color: $kok;
+                }
+                h3 {
+                    font-size: 36px;
+                    font-weight:700 ;
+                    color: $kok;
+                    padding-left: 1rem;
+                }
+                p {
+                    width: 570px;
+                    padding: 1.5rem 0; 
+                }
+                .jon {
+                    .btn-2 {
+                        margin-left: 1rem;
+                    }
+                }
+            }
+            
+        }   
+    }
+}
